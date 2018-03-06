@@ -1,0 +1,42 @@
+{
+  "name": "fluid-client",
+  "version": "0.1.0",
+  "description": "Client for accessing www.fluid.us",
+  "keywords": [
+    "fluid.us",
+    "purchasing",
+    "tokens"
+  ],
+  "main": "lib/fluid-client.js",
+  "engines": {
+    "node": ">=4"
+  },
+  "dependencies": {
+    "npm": "^5.7.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.18.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FluidProject/node-fluid-client.git"
+  },
+  "author": "Marc Rohloff <marc@unconfinedsolutions.com> (https://www.fluid.us/)",
+  "contributors": [
+    "Marc Rohloff <marc@unconfinedsolutions.com> (http://www.unconfinedsolutions.com/)"
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/FluidProject/node-fluid-clien/blob/master/LICENSE"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/FluidProject/node-fluid-client/issues"
+  },
+  "homepage": "https://github.com/FluidProject/node-fluid-client#readme"
+}
