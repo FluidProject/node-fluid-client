@@ -10,7 +10,16 @@ module.exports = {
     "rules": {
         "indent": [
             "error",
-            4
+            2,
+            {
+                "ArrayExpression":     "first",
+                "ObjectExpression":    "first",
+                "VariableDeclarator":  { "var": 2, "let": 2, "const": 3 },
+                "FunctionDeclaration": {"parameters": "first"},
+                "FunctionExpression":  {"parameters": "first"},
+                "CallExpression":      {"arguments":  "first"},
+                "ImportDeclaration":   "first"
+            }
         ],
         "linebreak-style": [
             "error",
