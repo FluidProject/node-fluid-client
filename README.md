@@ -1,4 +1,4 @@
-FLuid Client
+Fluid Client
 ============
 
 A library for generating and validating data used to access www.fluid.us
@@ -9,7 +9,10 @@ A library for generating and validating data used to access www.fluid.us
 
 ## Usage
 
-ToDo
+The client can be configured manually or with these environment variables"
+* FLUID_PUB_ID :    Your Publisher ID
+* FLUID_SECRET_KEY: Your secret key starting with 'sk_'
+* FLUID_URI:        The URI for a Fluid server (only needed for testing)  
 
 ## Tests
 
