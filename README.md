@@ -14,6 +14,8 @@ The client can be configured manually or with these environment variables"
 * FLUID_SECRET_KEY: Your secret key starting with 'sk_'
 * FLUID_URI:        The URI for a Fluid server (only needed for testing)  
 
+ToDo
+    
 ## Tests
 
 ToDo
